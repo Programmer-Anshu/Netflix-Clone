@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.ak{
+background-image: url(netflix-background-home.jpg);
+height: 150vh;
+    position: relative;
+    background-size: cover;
+    opacity: 0.80;
+
+   position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.card{
+    width: 400px;
+    height: 600px;
+background: linear-gradient(135deg,rgba(3, 3, 3, 0.1),rgb(0, 0, 0));
+backdrop-filter: blur(2px);
+border-radius: 5px;
+margin: 0 auto;
+/* display: flex; */
+top: 20vh;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+input{
+    width: 26vw;
+    display: flex;
+    text-align: center;
+    color: red;
+    opacity: 1;
+    display: block;
+    margin : 0 auto 20px;
+   height: 45px;
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 4px;
+    top: 50%;
+}
+button{
+    height: 40px;
+    cursor: pointer;
+    width: 25vw;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+
+}
+H2{
+font-size: 23px;
+    color: white;
+    text-align: center;
+}
+.ajy{
+margin-top: 10px;
+border:  1px solid white;
+background-color: transparent;
+}
+.lion{
+    width: 20px;
+    margin: 0 0 10px 10px;
+    color: white;
+    display: block;
+}
+.koi{
+    display: flex;
+   margin-top: 20px;
+}
+.koi h3{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+.anshu h4{
+    color: white;
+    font-family: sans-serif;
+    margin: 0 0 10px 10px;
+}
+.anshu{
+    text-align: center;
+    display: flex;
+}
+.anshu span{
+    margin: 0 0 10px 10px;
+    color: red;
+ font-weight: bold;
+}
+.king h5{
+    margin: 0 0 10px 10px;
+    font-family: sans-serif;
+    color: rgb(173, 163, 163);
+    font-weight: bold;
+
+}
